@@ -6,7 +6,6 @@ function creatediv(url,name){
     
     img(url,div)
     addE(div,"click",()=>{
-        alert("w")
         GetApi(name)
     })
     qs('#Pokedex').appendChild(div)
