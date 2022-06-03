@@ -4,6 +4,7 @@ import { createLi } from "./components/li.js";
 import { createImg } from "./components/img.js";
 import { creatediv } from "./components/div.js";
 import { createTable } from "./components/table.js";
+import {createButton} from "./components/button.js"
 function list(name,order,sprites,stats,types){
     createList(name,order,sprites,stats,types)
 }
@@ -22,6 +23,9 @@ function div(url,name,table){
 }
 function table(){
     createTable()
+}
+function button(name,event,object,func){
+    createButton(name,event,object,func)
 }
 
 export {list,h1,li,img,div,table}

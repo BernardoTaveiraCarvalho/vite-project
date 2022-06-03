@@ -14,6 +14,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/'+nome)
 }) 
 .catch(function(error) {
     h1(1)
+    alert("Error: "+error.mensage)
   })
 }
 export {GetApi}

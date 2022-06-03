@@ -1,4 +1,4 @@
-import { ce} from "../helper/dom.js"
+import { ce, qs} from "../helper/dom.js"
 import { deletecomponent } from "../event/deletecomponent.js"
     let text=""
 function createh1(error){
